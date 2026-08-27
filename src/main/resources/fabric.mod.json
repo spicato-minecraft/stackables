@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "stackables",
+	"version": "${version}",
+	"name": "Stackables",
+	"description": "Identical potions and enchanted books stack up to 16.",
+	"authors": [
+		"spicato"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"stackables.Stackables"
+		],
+		"client": [
+			"stackables.StackablesClient"
+		]
+	},
+	"mixins": [
+		"stackables.mixins.json",
+		{
+			"config": "stackables.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
