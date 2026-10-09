@@ -7,12 +7,13 @@
 	"entrypoints": {
 		"fabric-gametest": [
 			"stackables.gametest.ModLoadsGameTest",
-			"stackables.gametest.StackSizeGameTest"
+			"stackables.gametest.StackSizeGameTest",
+			"stackables.gametest.ConsumeOneGameTest"
 		]
 	},
 	"depends": {
 		"stackables": "*",
 		"fabric-api": "*",
-		"minecraft": "~1.21.11"
+		"minecraft": "~26.1"
 	}
 }
