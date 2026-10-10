@@ -8,7 +8,11 @@
 		"fabric-gametest": [
 			"stackables.gametest.ModLoadsGameTest",
 			"stackables.gametest.StackSizeGameTest",
-			"stackables.gametest.ConsumeOneGameTest"
+			"stackables.gametest.ConsumeOneGameTest",
+			"stackables.gametest.ServerMixinApplySweepGameTest",
+			"stackables.gametest.GrindstoneXpScalesWithCountGameTest",
+			"stackables.gametest.DifferentBooksDoNotMergeGameTest",
+			"stackables.gametest.BrewingSlotOneConvertsOneGameTest"
 		]
 	},
 	"depends": {
